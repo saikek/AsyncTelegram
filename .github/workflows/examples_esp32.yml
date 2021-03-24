@@ -9,7 +9,7 @@ jobs:
       fail-fast: false
       matrix:
         example: 
-        - "examples/ESP32-CAM/ESP32-CAM.ino"
+        - "examples/ESP32-CAM/**"
         - "examples/sendPhotoESP32/sendPhoto_FFAT/sendPhoto_FFAT.ino"
         - "examples/sendPhotoESP32/sendPhoto_SPIFFS/sendPhoto_SPIFFS.ino"
         - "examples/echoBot/echoBot.ino"
